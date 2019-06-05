@@ -1,59 +1,26 @@
-Jeecg-Boot 快速开发平台(前后端分离版本)
-===============
+Ant Design Jeecg Vue
+====
 
-当前最新版本： 1.0（发布日期：20190225）
+当前最新版本： 2.0.1（发布日期：20190603）
 
-项目介绍：
------------------------------------
-Jeecg-boot 一个全新的版本，采用前后端分离方案，提供强大代码生成器的快速开发平台。
+Overview
+----
+
+基于 [Ant Design of Vue](https://vuecomponent.github.io/ant-design-vue/docs/vue/introduce-cn/) 实现的 Ant Design Pro  Vue 版
+Jeecg-boot 的前段UI框架，采用前后端分离方案，提供强大代码生成器的快速开发平台。
 前端页面代码和后端功能代码一键生成，不需要写任何代码，保持jeecg一贯的强大！！
 
 
-技术架构：
------------------------------------
-后端技术： SpringBoot + Mybatis-plus + Shiro + Jwt + Swagger-ui + Redis
 
-前端技术： Ant-design-vue + Vue + Webpack
-
-其他技术： Druid（数据库连接池）、Logback（日志工具） 、poi（Excel工具）、
-           Quartz（定时任务）、lombok（简化代码）
-		   
-项目构建： Maven、Jdk8
-
-
-
-系统效果
-----
-
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25154007_icdX.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25153956_Q752.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201901/07154149_555Q.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25154209_qlCg.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25154251_XoW9.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25154331_0ndT.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25154414_ckFS.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25155155_Hm6H.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25155213_T04n.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25155224_MRLU.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25155234_7zCP.png "在这里输入图片标题")
-![输入图片说明](https://static.oschina.net/uploads/img/201902/25155242_K7Sw.png "在这里输入图片标题")
-
-
-技术文档
------------------------------------
-* 在线演示: [http://boot.jeecg.org](http://boot.jeecg.org)
-* 官方文档: [http://jeecg-boot.mydoc.io](http://jeecg-boot.mydoc.io)
-* QQ交流群：284271917
-
-
-前端开发环境和依赖
-----
+#### 前端技术
+ 
+- 基础框架：[ant-design-vue](https://github.com/vueComponent/ant-design-vue) - Ant Design Of Vue 实现
+- JavaScript框架：Vue
+- Webpack
 - node
 - yarn
-- webpack
 - eslint
 - @vue/cli 3.2.1
-- [ant-design-vue](https://github.com/vueComponent/ant-design-vue) - Ant Design Of Vue 实现
 - [vue-cropper](https://github.com/xyxiao001/vue-cropper) - 头像裁剪组件
 - [@antv/g2](https://antv.alipay.com/zh-cn/index.html) - Alipay AntV 数据可视化图表
 - [Viser-vue](https://viserjs.github.io/docs.html#/viser/guide/installation)  - antv/g2 封装实现
